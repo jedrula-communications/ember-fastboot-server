@@ -7,6 +7,6 @@ unzip master.zip
 echo "removing master.zip..."
 rm master.zip
 echo "entering unzipped project dir..."
-cd ember-fastboot-server
+cd ember-fastboot-server-master
 echo "installing npm packages..."
 npm i
