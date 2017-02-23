@@ -13,6 +13,6 @@ small wrapper arround fastboot-app-server for spinning fastboot app
 
 4. spin it
 ```
-PORT=8913 DIST_PATH=../jedrula-app/current node server.js
+PORT=5000 DIST_PATH=../jedrula-app/current node server.js
 ```
 
