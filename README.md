@@ -16,5 +16,8 @@ small wrapper arround fastboot-app-server for spinning fastboot app
 PORT=5000 DIST_PATH=../jedrula-app/current node server.js
 ```
 
-4.1. to see how to spin it as a deamon see this article:
-http://jedrula-app.surge.sh/post/e58f4fd4-bda4-4a1d-801b-d68cc255a63f
+4.1. ...as a service
+[how to install it as a service](http://jedrula-app.surge.sh/post/e58f4fd4-bda4-4a1d-801b-d68cc255a63f)
+
+and once installed:
+sudo service ember-fastboot-server-master start
