@@ -1,0 +1,58 @@
+{
+  "dependencies": {
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.0"
+  },
+  "fastboot": {
+    "moduleWhitelist": [
+      "moment",
+      "moment-timezone",
+      "showdown"
+    ],
+    "manifest": {
+      "appFile": "fastboot/jedrula-app.js",
+      "vendorFile": "fastboot/vendor.js",
+      "htmlFile": "index.html"
+    },
+    "hostWhitelist": [
+      "/^192.168.0.185:\\d+$/",
+      "/^78.88.255.144:\\d+$/",
+      "/^78.88.253.196:\\d+$/",
+      "/^localhost:\\d+$/"
+    ],
+    "appConfig": {
+      "modulePrefix": "jedrula-app",
+      "environment": "development",
+      "rootURL": "/",
+      "locationType": "auto",
+      "EmberENV": {
+        "FEATURES": {},
+        "EXTEND_PROTOTYPES": {
+          "Date": false
+        }
+      },
+      "APP": {
+        "API_SERVER_URL": "http://localhost:4000",
+        "name": "jedrula-app",
+        "version": "0.0.0+8d4fa93c",
+        "autoboot": false
+      },
+      "fastboot": {
+        "hostWhitelist": [
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "ember-simple-auth": {
+        "authorizer": "authorizer:token",
+        "routeAfterAuthentication": "blog"
+      },
+      "ember-simple-auth-token": {
+        "serverTokenEndpoint": "http://localhost:4000/tokens"
+      },
+      "exportApplicationGlobal": true
+    }
+  }
+}

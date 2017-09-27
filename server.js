@@ -1,6 +1,6 @@
 // TODO a hack as I had some problems with setting env variables on my raspberry pi
 process.env.PORT = process.env.PORT || 5000;
-process.env.DIST_PATH = process.env.DIST_PATH || '/home/pi/jedrula-app-dist-only/dist';
+process.env.DIST_PATH = process.env.DIST_PATH || './jedrula-app-dist-only';
 
 const FastBootAppServer = require('fastboot-app-server');
 
