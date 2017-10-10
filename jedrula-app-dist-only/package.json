@@ -15,6 +15,7 @@
       "htmlFile": "index.html"
     },
     "hostWhitelist": [
+      "/^192.168.1.100:\\d+$/",
       "/^88.156.95.104:\\d+$/",
       "/^192.168.1.102:\\d+$/",
       "/^192.168.0.185:\\d+$/",
@@ -36,11 +37,12 @@
       "APP": {
         "API_SERVER_URL": "http://88.156.95.104:4000",
         "name": "jedrula-app",
-        "version": "0.0.0+0c4a75af",
+        "version": "0.0.0+8cf58e8d",
         "autoboot": false
       },
       "fastboot": {
         "hostWhitelist": [
+          {},
           {},
           {},
           {},
