@@ -8,6 +8,6 @@ ADD . /app
 
 RUN npm install --production
 
-EXPOSE 5000
+EXPOSE 5005
 
 CMD [ "npm", "start" ]

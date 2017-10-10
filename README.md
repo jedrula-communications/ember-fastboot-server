@@ -3,6 +3,8 @@ docker build -t jedrula-fastboot .
 docker tag jedrula-fastboot jedrula/jedrula-fastboot
 docker push jedrula/jedrula-fastboot
 
+in case you do not have rights to push you probably need to `docker login`
+
 # ember-fastboot-server
 small wrapper arround fastboot-app-server for spinning fastboot app
 
