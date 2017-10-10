@@ -15,6 +15,8 @@
       "htmlFile": "index.html"
     },
     "hostWhitelist": [
+      "/^88.156.95.104:\\d+$/",
+      "/^192.168.1.102:\\d+$/",
       "/^192.168.0.185:\\d+$/",
       "/^78.88.255.144:\\d+$/",
       "/^78.88.253.196:\\d+$/",
@@ -22,7 +24,7 @@
     ],
     "appConfig": {
       "modulePrefix": "jedrula-app",
-      "environment": "development",
+      "environment": "production",
       "rootURL": "/",
       "locationType": "auto",
       "EmberENV": {
@@ -32,13 +34,15 @@
         }
       },
       "APP": {
-        "API_SERVER_URL": "http://localhost:4000",
+        "API_SERVER_URL": "http://88.156.95.104:4000",
         "name": "jedrula-app",
-        "version": "0.0.0+8d4fa93c",
+        "version": "0.0.0+0c4a75af",
         "autoboot": false
       },
       "fastboot": {
         "hostWhitelist": [
+          {},
+          {},
           {},
           {},
           {},
@@ -50,9 +54,9 @@
         "routeAfterAuthentication": "blog"
       },
       "ember-simple-auth-token": {
-        "serverTokenEndpoint": "http://localhost:4000/tokens"
+        "serverTokenEndpoint": "http://88.156.95.104:4000/tokens"
       },
-      "exportApplicationGlobal": true
+      "exportApplicationGlobal": false
     }
   }
 }
