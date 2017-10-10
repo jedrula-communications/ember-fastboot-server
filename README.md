@@ -1,7 +1,7 @@
 # building with docker
 docker build -t jedrula-fastboot .
-docker tag jedrula-fastboot $DOCKER_ID_USER/jedrula-fastboot
-docker push $DOCKER_ID_USER/jedrula-fastboot
+docker tag jedrula-fastboot jedrula/jedrula-fastboot
+docker push jedrula/jedrula-fastboot
 
 # ember-fastboot-server
 small wrapper arround fastboot-app-server for spinning fastboot app
