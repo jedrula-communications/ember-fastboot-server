@@ -36,9 +36,9 @@
         }
       },
       "APP": {
-        "API_SERVER_URL": "http://88.156.95.104:4000",
+        "API_SERVER_URL": "http://jedrula.ddns.net:4000",
         "name": "jedrula-app",
-        "version": "0.0.0+1c818e5b",
+        "version": "0.0.0+2b8d5631",
         "autoboot": false
       },
       "fastboot": {
@@ -58,7 +58,7 @@
         "routeAfterAuthentication": "blog"
       },
       "ember-simple-auth-token": {
-        "serverTokenEndpoint": "http://88.156.95.104:4000/tokens"
+        "serverTokenEndpoint": "http://jedrula.ddns.net:4000/tokens"
       },
       "exportApplicationGlobal": false
     }
