@@ -19,9 +19,6 @@
       "/^192.168.1.100:\\d+$/",
       "/^88.156.95.104:\\d+$/",
       "/^192.168.1.102:\\d+$/",
-      "/^192.168.0.185:\\d+$/",
-      "/^78.88.255.144:\\d+$/",
-      "/^78.88.253.196:\\d+$/",
       "/^localhost:\\d+$/"
     ],
     "appConfig": {
@@ -38,14 +35,11 @@
       "APP": {
         "API_SERVER_URL": "http://jedrula.ddns.net:4000",
         "name": "jedrula-app",
-        "version": "0.0.0+2b8d5631",
+        "version": "0.0.0+e88cb7a4",
         "autoboot": false
       },
       "fastboot": {
         "hostWhitelist": [
-          {},
-          {},
-          {},
           {},
           {},
           {},
